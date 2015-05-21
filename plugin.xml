@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="be.idealsystems.cordova.UrlScheme"
+        version="0.1.0">
+    <name>UrlScheme</name>
+    <description>Ideal Systems UrlScheme Plugin</description>
+    <license>MIT</license>
+    <keywords>cordova,callable,app</keywords>
+
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+            <array>
+                <dict>
+                    <key>CFBundleURLSchemes</key>
+                    <array>
+                        <string>telenetusage</string>
+                    </array>
+                    <key>CFBundleURLName</key>
+                    <string>be.telenet.Mobile</string>
+                </dict>
+            </array>
+        </config-file>
+
+    </platform>
+
+</plugin>
