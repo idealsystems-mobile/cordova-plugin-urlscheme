@@ -17,10 +17,10 @@
                 <dict>
                     <key>CFBundleURLSchemes</key>
                     <array>
-                        <string>telenetusage</string>
+                        <string>[URL_SCHEME]</string>
                     </array>
                     <key>CFBundleURLName</key>
-                    <string>be.telenet.Mobile</string>
+                    <string>[APP_IDENTIFIER]</string>
                 </dict>
             </array>
         </config-file>
